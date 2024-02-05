@@ -1,7 +1,14 @@
 import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <Container>
+        <Row>
+            <Col>HOme</Col>
+            <Col>HOme</Col>
+        </Row>
+    </Container>
   )
 }
