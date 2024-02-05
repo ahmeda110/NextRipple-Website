@@ -1,16 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import styles from './Header.module.css'
 
 function Header() {
+  const setActiveClass = ({ isActive }) => isActive ? styles.active : undefined;
+
   return (
     <header>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
-          <li><Link to="/products">Products</Link></li>
+          <li><NavLink to="/" className={setActiveClass}>Home</NavLink></li>
+          <li><NavLink to="/about" className={setActiveClass}>About</NavLink></li>
+          <li><NavLink to="/contact" className={setActiveClass}>Contact</NavLink></li>
+          <li><NavLink to="/blog" className={setActiveClass}>Blog</NavLink></li>
+          <li><NavLink to="/products" className={setActiveClass}>Products</NavLink></li>
         </ul>
       </nav>
     </header>
