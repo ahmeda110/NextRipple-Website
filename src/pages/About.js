@@ -3,7 +3,7 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <div>About</div>
+    <div>About Page</div>
   )
 }
 
