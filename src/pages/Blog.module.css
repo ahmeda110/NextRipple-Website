@@ -1,0 +1,28 @@
+.blogContainer{
+    margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.articlesWrapper {
+    display: flex;
+  }
+  
+  .mainArticle {
+    flex: 2;
+    padding-right: 10px;
+  }
+  
+  .subArticle {
+    flex: 1; 
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subArticle .article {
+    width: 100%;
+  }
+
+  .articlePhoto{
+    width: 100%;
+  }
