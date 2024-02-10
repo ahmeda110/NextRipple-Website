@@ -9,7 +9,7 @@ function Blog() {
   return (
     <div className={styles.blogContainer}>
         <div className={styles.blogHeader}>
-            <h2>Most Recent Blogs</h2>
+            <h2 className={styles.headerContent}>Most Recent Blogs</h2>
             <button className={styles.viewAllButton} onClick={() => {/* Implement navigation logic */}}>View All Blogs {'>'}</button>
         </div>
         <div className={styles.articlesWrapper}>

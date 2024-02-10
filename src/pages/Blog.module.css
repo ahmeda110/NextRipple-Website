@@ -1,6 +1,6 @@
 .blogContainer {
   margin: 10%;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .viewAllButton {
@@ -43,4 +44,16 @@
   padding: 8px 16px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.headerContent {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+
+.articleTitle {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 22px;
 }

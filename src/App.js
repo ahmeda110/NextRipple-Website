@@ -11,6 +11,7 @@ import Blog from './pages/Blog';
 import Products from './pages/Products';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import AllBlogs from './pages/AllBlogs'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/blog/allblogs" element={<AllBlogs/>} />
         </Routes>
       </div>
       <Footer/>
