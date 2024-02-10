@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1a1a2e; /* Dark background color */
+  background-color: #292930; 
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -64,7 +64,63 @@
     margin-bottom: 10px; 
     align-self: center;
   }
+
+  .innerSubscribe{
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   
+  .subscribeNow{
+    font-weight: 400;
+    font-size: larger;
+    margin: 0;
+  }
+
+  .subscribeNowSub{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #D0D0D0;
+  }
+
+  .emailInput {
+    background-color: #5B5B61;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    color: #ffffff; 
+    padding-left: 20px;
+  }
+  
+  .emailInput::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .subscribeButton {
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFC107;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .emailInput, .subscribeButton {
+    box-sizing: border-box; 
+    width: 100%;
+  }
 
 @media (max-width: 768px) {
   .footer {

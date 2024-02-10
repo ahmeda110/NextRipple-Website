@@ -8,16 +8,18 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.left}>
         <div className={styles.subscribeContainer}> 
-          <div className={styles.subscribeContainerHeader}>
-            <img src={Pacman} alt=''></img>
-            <h2>Next Ripple</h2>
-          </div>
-          <img className={styles.subscribeImage} src={LogoImage}></img>
-          <p>Subscribe now asdf asd f asdf d fasdf </p>
-          <p>Industry's standard from dummybook.</p>
-          <input type="text" placeholder="Enter Your Email..." />
-          <div>
-            <button>Subscribe</button>
+          <div className={styles.innerSubscribe}>
+            <div className={styles.subscribeContainerHeader}>
+              <img src={Pacman} alt=''></img>
+              <h2>Next Ripple</h2>
+            </div>
+            <img className={styles.subscribeImage} src={LogoImage}></img>
+            <p className={styles.subscribeNow}>Subscribe now</p>
+            <p className={styles.subscribeNowSub}>Industry's standard from dummy and make a type book.</p>
+            <input className={styles.emailInput} type="text" placeholder="Enter Your Email..." />
+            <div>
+              <button className={styles.subscribeButton}>Subscribe</button>
+            </div>
           </div>
         </div>
       </div>
