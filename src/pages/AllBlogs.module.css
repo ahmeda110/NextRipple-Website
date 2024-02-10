@@ -1,0 +1,26 @@
+.blogContainer {
+    margin: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .blogHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  
+  .articleTitle {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+
+  .headerContent {
+    font-weight: 500;
+    font-size: 32px;
+  }
+  

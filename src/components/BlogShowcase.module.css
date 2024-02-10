@@ -1,0 +1,31 @@
+.blogShowcase {
+    display: flex;
+    margin-bottom: 20px; 
+  }
+  
+  .blogImage {
+    flex: 1; 
+    margin-right: 20px;
+  }
+  
+  .blogImage img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .blogContent {
+    flex: 3; 
+  }
+  
+  .blogCategory {
+    font-weight: bold;
+    
+  }
+  
+  .blogTitle {
+    
+  }
+  
+  .blogDescription {
+  }
+  

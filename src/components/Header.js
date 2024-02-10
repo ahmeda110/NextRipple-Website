@@ -18,6 +18,8 @@ function Header() {
         return 'Blog';
       case '/products':
         return 'Products';
+      case '/blog/allblogs':
+        return 'All Blogs';
       default:
         return '';
     }

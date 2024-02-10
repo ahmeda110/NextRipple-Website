@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Blog.module.css';
 import { blogArticles } from '../components/BlogData';
-
+import { NavLink } from 'react-router-dom';
 function Blog() {
   const firstArticle = blogArticles.slice(0, 1);
   const nextTwoArticles = blogArticles.slice(1, 3);
@@ -10,7 +10,7 @@ function Blog() {
     <div className={styles.blogContainer}>
         <div className={styles.blogHeader}>
             <h2 className={styles.headerContent}>Most Recent Blogs</h2>
-            <button className={styles.viewAllButton} onClick={() => {/* Implement navigation logic */}}>View All Blogs {'>'}</button>
+            <NavLink className={styles.viewAllButton} to="/blog/allblogs">View All Blogs {'>'}</NavLink>
         </div>
         <div className={styles.articlesWrapper}>
             <div className={styles.mainArticle}>
