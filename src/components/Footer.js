@@ -3,8 +3,8 @@ import styles from './Footer.module.css'
 
 function Footer() {
   return (
-    <footer>
-      <p>© 2024 Next Ripple. All rights reserved.</p>
+    <footer className={styles.container}>
+      <p className={styles.text}>© 2024 Next Ripple. All rights reserved.</p>
     </footer>
   );
 }
