@@ -48,6 +48,18 @@ h2 {
   padding-bottom: 5%;
 }
 
+.divider {
+  width: 80%;
+  display: inline-block;
+} 
+
+.icon {
+  width: 4vw;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-block;
+}
 .App {
   text-align: center;
 }

@@ -33,7 +33,23 @@ export const Home = () => {
         </Col>
         <Col className='text-2'>
         <h1 style={{color: 'white'}}>Find The <span style={{color: '#FFAE71'}}>Right Path</span> With Us</h1>
+        <div className="header-container" style={{ position: 'relative' }}>
+  <img src='./img/mental_icon.png' alt='icon' className='icon' />
+  <h1 style={{ color: 'white', fontSize: '1em', position: 'absolute', left: '30%', top: '40%', transform: 'translate(-50%, -50%)', zIndex: '1', margin: '0' }}>Mental Resilience</h1>
+  <img src='./img/divider.png' alt='divider' className='divider' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: '0' }} />
+</div>
+        <div className="header-container" style={{ position: 'relative' }}>
+  <img src='./img/mental_icon.png' alt='icon' className='icon' />
+  <h1 style={{ color: 'white', fontSize: '1em', position: 'absolute', left: '30%', top: '40%', transform: 'translate(-50%, -50%)', zIndex: '1', margin: '0' }}>Mental Resilience</h1>
+  <img src='./img/divider.png' alt='divider' className='divider' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: '0' }} />
+</div>
+<div className="header-container" style={{ position: 'relative' }}>
+  <img src='./img/mental_icon.png' alt='icon' className='icon' />
+  <h1 style={{ color: 'white', fontSize: '1em', position: 'absolute', left: '30%', top: '40%', transform: 'translate(-50%, -50%)', zIndex: '1', margin: '0' }}>Mental Resilience</h1>
+  <img src='./img/divider.png' alt='divider' className='divider' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: '0' }} />
+</div>
         </Col>
+
     </Row>
     </Container>
     </div>
