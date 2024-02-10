@@ -2,6 +2,10 @@ import React from 'react';
 import styles from './Footer.module.css';
 import Pacman from '../images/Pacman.png'
 import LogoImage from '../images/Logoimg.png'
+import IconLocation from '../images/IconLocation.png'
+import IconPages from '../images/Iconpages.png'
+import IconSpeaker from '../images/Iconspeaker.png'
+import IconPhone from '../images/IconPhone.png'
 
 function Footer() {
   return (
@@ -26,28 +30,53 @@ function Footer() {
       <div className={styles.right}>
         <div className={styles.rightTop}>
           <div className={styles.getInTouch}>
-            <h3>Get in touch with</h3>
-            <p>+1 917 000 1212</p>
+            <div className={styles.subheader}>
+              <img src={IconPhone} alt=''></img>
+              <h3>Get in touch with</h3>
+            </div>
+            <div>
+              <div className={styles.phoneNumber}>
+                <p>+1 917 000 1212</p>
+              </div>
+            </div>
             <p>nextripple@marketing.com</p>
           </div>
           <div className={styles.locationContainer}>
-            <h3>Location</h3>
-            <p>10 Suna House 65 Rivington Street</p>
-            <p>London EC2A 3QQ</p>
+            <div className={styles.subheader}>
+              <img src={IconLocation} alt=''></img>
+              <h3>Location</h3>
+            </div>
+            
+            <p className={styles.address}>10 Suna House 65 Rivington Street London EC2A 3QQ</p>
+            <a href="/about" className={styles.locationLink}>location</a>  
           </div>
         </div>
         <div className={styles.rightBottom}>
           <div className={styles.pages}>
-            <h3>Pages</h3>
-            <nav>
+            <div className={styles.subheader}>
+              <img src={IconPages} alt=''></img>
+              <h3>Pages</h3>
+            </div>
+            <div className={styles.linkContainer}>
               <a href="/home">Home</a>
-              <a href="/about">About</a>
-            </nav>
+              <a href="/about">About</a>  
+              <a href="/home">Blog</a>
+              <a href="/about">Products</a>  
+              <a href="/home">Contact</a>
+            </div>
           </div>
           <div className={styles.follows}>
-            <h3>Follows</h3>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://twitter.com">Twitter</a>
+            <div className={styles.subheader}>
+              <img src={IconSpeaker} alt=''></img>
+              <h3>Follows</h3>
+            </div>  
+            <div className={styles.linkContainer}>
+              <a href="https://facebook.com">Facebook</a>
+              <a href="https://twitter.com">Twitter</a>
+              <a href="https://facebook.com">Instagram</a>
+              <a href="https://twitter.com">Linkedin</a>
+            </div>
+            
           </div>
         </div>
       </div>

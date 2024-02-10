@@ -14,9 +14,16 @@
   flex-direction: column;
 }
 
-.rightTop, .rightBottom {
+.rightTop {
     flex-direction: row;
-}
+    border-bottom: 1px solid #727274; /* Adds a white line */
+    padding-bottom: 20px; /* Adds space below the content, above the line */
+  }
+  
+  .rightBottom {
+    flex-direction: row;
+    padding-top: 20px; /* Adds space above the content, below the line */
+  }
 
 .left {
   flex-basis: 40%;
@@ -120,6 +127,47 @@
   .emailInput, .subscribeButton {
     box-sizing: border-box; 
     width: 100%;
+  }
+
+  .subheader {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  .phoneNumber {
+    display: inline-block; 
+    background-color: #3C3C45;
+    color: #FFC107;
+    border-radius: 5px;
+    text-align: center; 
+  }
+  
+  .phoneNumber p {
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin: 0;
+  }
+  
+  .address {
+    margin-top: 10px;
+  }
+
+  .locationLink {
+    color: #FFC107;
+  }
+
+  .linkContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linkContainer a {
+    text-decoration: none;
+    color: inherit; 
+    padding-top: 8px;
   }
 
 @media (max-width: 768px) {
