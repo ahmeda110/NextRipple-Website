@@ -15,6 +15,29 @@ h2 {
   font-size: 2.2em;
 }
 
+.button1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+  color: white;
+  background-color: #5E62DB;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: white;
+}
+
 .rocket {
   width: 50vw;
   height: auto;
