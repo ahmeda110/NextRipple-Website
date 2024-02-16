@@ -18,7 +18,7 @@ h2 {
 .button1 {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
-  font-size: 1em;
+  font-size: 0.8em;
   color: white;
   background-color: #5E62DB;
   border: none;
@@ -41,12 +41,11 @@ p {
 .rocket {
   width: 50vw;
   height: auto;
-  padding-top: 30%;
   padding-bottom: 50px;
 }
 .home-intro {
   text-align: left;
-  padding-top: 75%;
+  padding-top: 20%;
   padding-left: 15%;
   padding-right: 10%;
   padding-bottom: 50px;
@@ -68,6 +67,11 @@ p {
 .home-2 {
   background-color: #292930;
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.home {
+  padding-top: 12%;
   padding-bottom: 5%;
 }
 

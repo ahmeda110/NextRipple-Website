@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Home = () => {
   return (
     <div>
-      <Container>
+      <Container fluid className="home">
         <Row>
           <Col>
             <div className="home-intro">
@@ -161,6 +161,15 @@ export const Home = () => {
               </p>
             </div>
           </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <h2>The Ripple of Change</h2>
+          </Col>
+          <Col>
+          ds</Col>
         </Row>
       </Container>
     </div>
