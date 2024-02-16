@@ -163,10 +163,11 @@ export const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container fluid className="home">
         <Row>
-          <Col>
-            <h2>The Ripple of Change</h2>
+          <Col className="review-1">
+            <h2>The ripple of change starts with <span style={{ color: "#645ED9", fontWeight: 900 }}>YOU</span></h2>
+            <img src="./img/check.png" alt="check" className="check"></img>
           </Col>
           <Col>
           ds</Col>
