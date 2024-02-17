@@ -133,3 +133,19 @@
     font-size: 1.2em;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .rowFlexContainer {
+        flex-direction: column; 
+    }
+
+    .statsContainer {
+        flex-direction: column;
+    }
+    
+    .verticalDivider {
+        height: 0px; /* Adjust height to make it look like a thin line */
+        margin: 1em 0;
+      }
+}
+  
