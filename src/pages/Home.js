@@ -169,8 +169,10 @@ export const Home = () => {
             <h2>The ripple of change starts with <span style={{ color: "#645ED9", fontWeight: 900 }}>YOU</span></h2>
             <img src="./img/check.png" alt="check" className="check"></img>
           </Col>
-          <Col>
-          ds</Col>
+          <Col xs={7}>
+          <img src="./img/review.png" alt="review" className="review"></img>
+          <img src="./img/rating.png" alt="review-2" className="review-2" style={{zIndex: 1, position: 'relative'}}></img>
+          </Col>
         </Row>
       </Container>
     </div>
