@@ -167,11 +167,18 @@ export const Home = () => {
         <Row>
           <Col className="review-1">
             <h2>The ripple of change starts with <span style={{ color: "#645ED9", fontWeight: 900 }}>YOU</span></h2>
-            <img src="./img/check.png" alt="check" className="check"></img>
+            <img src="./img/check.png" alt="check" style={{paddingTop: '15%', paddingBottom: '15%'}}></img>
+            <p style={{ color: "grey" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </Col>
-          <Col xs={7}>
+          <Col xs={12} sm={7}>
+          <div style={{position: 'relative', textAlign: 'left'}}>
+          <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '2em'}}>Flex Flow</h1>
+          <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '0.8em', fontWeight: 500}}>Sarah Low - Age 35</h2>
           <img src="./img/review.png" alt="review" className="review"></img>
-          <img src="./img/rating.png" alt="review-2" className="review-2" style={{zIndex: 1, position: 'relative'}}></img>
+          <p style={{ color: "grey", position: 'absolute', left: '50%', top: '40%', width: '35%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}}>Our Products</button>
+          </div>
+      
           </Col>
         </Row>
       </Container>
