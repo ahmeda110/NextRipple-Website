@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;700&display=swap');
+
+.pageHeader {
+    position: block; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundGradient {
+    width: 100%;
+    height: auto;
+}
+
+.pageTitle {
+    position: absolute;
+    margin-top: 20vw;
+    font-family: 'Nunito', sans-serif;
+}
