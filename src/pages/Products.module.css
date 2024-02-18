@@ -1,57 +1,93 @@
+
+
 .Products {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-  }
-  
-  .productContainer {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    background: #1e1e1e; 
-    margin: 20px 0; 
+    align-items: center;
+    background: #1e1e1e; /* Single background for the whole section */
     padding: 20px;
     border-radius: 10px;
+    width: 100%; /* Fill the width */
+}
+
+.productContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 50px;
     width: 80%;
-    max-width: 1200px; 
+}
+
+.itineraryLayout {
+    flex-direction: row-reverse; /* Reverses the order of flex items */
+    justify-content: space-between; /* Adjust spacing as needed */
   }
   
-  .imageContainer {
-    flex: 0 0 20%; 
-    background: #007bff; 
-    padding: 20px; 
-    margin-right: 20px;
+  /* Optional: Adjust the margins for the itinerary image and details */
+  .itineraryLayout .imageContainer {
+    margin-left: 40px; /* Adjust based on layout */
+    margin-right: 150px; /* Adjust based on layout */
+  }
+  
+  .itineraryLayout .productDetails {
+    padding-right: 20px; /* Adjust as needed for spacing */
+    margin-left: 150px;
+  }
+
+.imageContainer {
+    width: 28%;
+    height: 15%;
+    background: linear-gradient(#5956E8, #FF95F4);
+    padding: 40px 20px 0px; /* Increased top padding */
+    margin-right: 40px;
+    margin-left: 150px;
     border-radius: 10px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add this if not already present */
+}
   
-  .productImage {
-    max-width: 100%; 
+.productImage {
+    width: 125%; 
     height: auto;
     display: block;
-  }
+    margin-top: -30px; /* Adjust this value as needed */
+    transform: translate(0%, -15%); /* Offset the image correctly */
+}
   
-  .productDetails {
+.productDetails {
     flex: 1; 
     padding: 0 20px; 
     display: flex; 
     flex-direction: column; 
-    justify-content: center; 
-  }
+    justify-content: center;
+    margin-right: 100px;
+}
   
-  h2 {
+h1 {
     color: #ffffff;
     margin-bottom: 10px;
-  }
+    font-size: 80px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    background: linear-gradient(#AE007D, #4449BE, #CF74F9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline; 
+}
   
-  p {
+p {
     color: #a9a9a9;
     margin-bottom: 20px;
-  }
+}
   
-  .detailsButton {
+.detailsButton {
     background-color: #0052cc;
     color: #ffffff;
     border: none;
@@ -60,9 +96,9 @@
     text-transform: uppercase;
     border-radius: 5px;
     align-self: start; 
-  }
+}
   
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .productContainer {
       flex-direction: column;
       width: 95%;
@@ -77,6 +113,4 @@
     .productDetails {
       padding: 0; 
     }
-  }
-  
-  
+}
