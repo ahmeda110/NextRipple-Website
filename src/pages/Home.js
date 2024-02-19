@@ -49,9 +49,9 @@ export const Home = () => {
                   color: "white",
                   fontSize: "1em",
                   position: "absolute",
-                  left: "30%",
-                  top: "40%",
-                  transform: "translate(-50%, -50%)",
+                  left: "14%",
+                  top: "30%",
+        
                   zIndex: "1",
                   margin: "0",
                 }}
@@ -73,7 +73,7 @@ export const Home = () => {
               <p
                 style={{
                   position: "absolute",
-                  left: "72px",
+                  left: "14%",
                   top: "50%",
                   zIndex: "1",
                   margin: "0",
@@ -89,9 +89,8 @@ export const Home = () => {
                   color: "white",
                   fontSize: "1em",
                   position: "absolute",
-                  left: "30%",
-                  top: "40%",
-                  transform: "translate(-50%, -50%)",
+                  left: "14%",
+                  top: "30%",
                   zIndex: "1",
                   margin: "0",
                 }}
@@ -113,7 +112,7 @@ export const Home = () => {
               <p
                 style={{
                   position: "absolute",
-                  left: "72px",
+                  left: "14%",
                   top: "50%",
                   zIndex: "1",
                   margin: "0",
@@ -129,9 +128,8 @@ export const Home = () => {
                   color: "white",
                   fontSize: "1em",
                   position: "absolute",
-                  left: "30%",
-                  top: "40%",
-                  transform: "translate(-50%, -50%)",
+                  left: "14%",
+                  top: "30%",
                   zIndex: "1",
                   margin: "0",
                 }}
@@ -153,7 +151,7 @@ export const Home = () => {
               <p
                 style={{
                   position: "absolute",
-                  left: "72px",
+                  left: "14%",
                   top: "50%",
                   zIndex: "1",
                   margin: "0",
@@ -173,7 +171,7 @@ export const Home = () => {
             <img src="./img/check.png" alt="check" style={{paddingTop: '15%', paddingBottom: '15%'}}></img>
             <p style={{ color: "grey" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </Col>
-          <Col xs={12} sm={12} md={12} lg={12}>
+          <Col xs={12} sm={12} md={12} lg={12} xxl={7}>
           <div style={{position: 'relative', textAlign: 'left'}}>
           <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '2em'}}>Flex Flow</h1>
           <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '0.8em', fontWeight: 500}}>Sarah Low - Age 35</h2>
