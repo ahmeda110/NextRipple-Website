@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const Home = () => {
+  
   return (
     <div>
       <Container fluid className="home">
@@ -35,7 +36,8 @@ export const Home = () => {
               className="section-2"
             ></img>
           </Col>
-          <Col className="text-2">
+          <Col>
+          <div className="text-2">
             <h1 style={{ color: "white" }}>
               Find The <span style={{ color: "#FFAE71" }}>Right Path</span> With
               Us
@@ -160,6 +162,7 @@ export const Home = () => {
                 Lorem ipsum jalksd;fjlakdsjfl;kdsjfkl;dsadsfdfsjf;slkjdf ;
               </p>
             </div>
+            </div>
           </Col>
         </Row>
       </Container>
@@ -184,4 +187,5 @@ export const Home = () => {
       </Container>
     </div>
   );
+  
 };
