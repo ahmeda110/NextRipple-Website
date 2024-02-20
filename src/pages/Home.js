@@ -172,8 +172,8 @@ export const Home = () => {
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xxl={7}>
           <div style={{position: 'relative', textAlign: 'left'}}>
-          <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '2em'}}>Flex Flow</h1>
-          <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '0.8em', fontWeight: 500}}>Sarah Low - Age 35</h2>
+          <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '3vw'}}>Flex Flow</h1>
+          <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '1vw', fontWeight: 500}}>Sarah Low - Age 35</h2>
           <img src="./img/review.png" alt="review" className="review"></img>
           <p style={{ color: "grey", position: 'absolute', left: '50%', top: '40%', width: '35%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}}>Our Products</button>
