@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const Home = () => {
-  
   return (
     <div>
       <Container fluid className="home">
