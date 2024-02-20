@@ -13,7 +13,7 @@ export const Home = () => {
               <h1>Elevating Lives</h1>
               <p style={{ color: "grey" }}>
                 Your gateway to Mental Resilience, Physical Wellness, and Global
-                Exploration. The ripple of change starts with you.
+                Exploration. The ripple of change starts with you. 
               </p>
               <button className="button1">Our Products</button>
             </div>
