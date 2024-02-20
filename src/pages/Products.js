@@ -20,9 +20,12 @@ function Products() {
 
   return (
     <main>
-      <PageHeader title="Our Products" />
+      <PageHeader title="Products" />
+
       <div className={styles.Products}>
-        <h1>Our Products</h1>
+
+      <h1><span class={styles.ourStyle}>Our</span> <span class={styles.productsStyle}>Products</span></h1>
+
         {products.map((product, index) => (
           <div key={index} className={`${styles.productContainer} ${product.title === 'Itinerary App' ? styles.itineraryLayout : ''}`}>
             <div className={styles.imageContainer}>
