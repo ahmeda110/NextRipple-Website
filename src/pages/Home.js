@@ -17,7 +17,7 @@ export const Home = () => {
               <button className="button1">Our Products</button>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} md={6} lg={6} xxl={6}>
             <img
               src="./img/NR_rocket.png"
               alt="rocket image"
