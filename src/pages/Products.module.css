@@ -62,7 +62,7 @@
     height: auto;
     display: block;
     margin-top: -30px; 
-    transform: translate(0%, -15%); 
+    transform: translate(0%, -10%); 
     filter: drop-shadow(0px 4px 15px #FF95F4);
 }
   
@@ -119,18 +119,46 @@ p {
 }
   
 @media (max-width: 768px) {
-    .productContainer {
+  .productContainer {
       flex-direction: column;
       width: 95%;
-    }
-  
-    .imageContainer {
-      margin-right: 0;
+      padding: 20px; /* Reduced padding for smaller screens */
+      margin: 20px 0; /* Adjust margin for better spacing */
+  }
+
+  .imageContainer, .productDetails {
+      width: 50%; /* Full width for smaller screens */
+      margin: 0; /* Remove side margins */
+      padding: 15px; /* Adjust padding for consistency */
+  }
+
+  .productDetails {
+      padding-top: 10px; /* Add some padding on top for space between image and details */
+  }
+
+  .itineraryLayout {
+      flex-direction: column; /* Stack items vertically in itinerary layout too */
+  }
+
+  .itineraryLayout .imageContainer, .itineraryLayout .productDetails {
+      margin-left: 0; /* Align items to the center */
+      margin-right: 0; /* Remove additional margin */
+  }
+
+  h1, h2 {
+      font-size: 50px; /* Reduce font size for smaller screens */
+  }
+
+  .ourStyle, .productsStyle {
+      font-size: 60px; /* Adjust custom fonts size for better readability */
       margin-bottom: 20px;
-      flex: 0 0 auto; 
-    }
-  
-    .productDetails {
-      padding: 0; 
-    }
+  }
+
+  p {
+      font-size: 14px; /* Smaller text for smaller screens */
+  }
+
+  .detailsButton {
+      padding: 8px 16px; /* Adjust button size */
+  }
 }
