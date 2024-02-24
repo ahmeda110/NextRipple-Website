@@ -78,7 +78,7 @@ export const Home = () => {
                   margin: "0",
                 }}
               >
-                Lorem ipsum jalksd;fjlakdsjfl;kdsjfkl;dsadsfdfsjf;slkjdf ;
+                Lorem ipsum text;
               </p>
             </div>
             <div className="header-container" style={{ position: "relative" }}>
