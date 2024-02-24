@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-export const Home = () => {
+function Home() {
   return (
     <div>
       <Container fluid className="home">
@@ -186,3 +186,4 @@ export const Home = () => {
   );
   
 };
+export default Home;
