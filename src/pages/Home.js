@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import styles from './Home.module.css'
 
-export const Home = () => {
+function Home() {
   return (
     <div>
       <Container fluid className="home">
@@ -12,12 +12,12 @@ export const Home = () => {
               <h1>Elevating Lives</h1>
               <p style={{ color: "grey" }}>
                 Your gateway to Mental Resilience, Physical Wellness, and Global
-                Exploration. The ripple of change starts with you. 
+                Exploration. The ripple of change starts with you.
               </p>
               <button className="button1">Our Products</button>
             </div>
           </Col>
-          <Col xs={12} sm={6} md={6} lg={6} xxl={6}>
+          <Col>
             <img
               src="./img/NR_rocket.png"
               alt="rocket image"
