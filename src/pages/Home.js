@@ -1,9 +1,7 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
-import styles from './Home.module.css'
-
-function Home() {
+export const Home = () => {
   return (
     <div>
       <Container fluid className="home">
@@ -14,12 +12,12 @@ function Home() {
               <h1>Elevating Lives</h1>
               <p style={{ color: "grey" }}>
                 Your gateway to Mental Resilience, Physical Wellness, and Global
-                Exploration. The ripple of change starts with you.
+                Exploration. The ripple of change starts with you. 
               </p>
               <button className="button1">Our Products</button>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} md={6} lg={6} xxl={6}>
             <img
               src="./img/NR_rocket.png"
               alt="rocket image"
@@ -174,8 +172,8 @@ function Home() {
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xxl={7}>
           <div style={{position: 'relative', textAlign: 'left'}}>
-          <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '2em'}}>Flex Flow</h1>
-          <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '0.8em', fontWeight: 500}}>Sarah Low - Age 35</h2>
+          <h1 style={{position: 'absolute', left: '50%', top: '15%', fontSize: '3vw'}}>Flex Flow</h1>
+          <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '1vw', fontWeight: 500}}>Sarah Low - Age 35</h2>
           <img src="./img/review.png" alt="review" className="review"></img>
           <p style={{ color: "grey", position: 'absolute', left: '50%', top: '40%', width: '35%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}}>Our Products</button>
@@ -188,5 +186,3 @@ function Home() {
   );
   
 };
-
-export default Home;
