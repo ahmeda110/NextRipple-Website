@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Container fluid className="home">
         <Row>
-          <Col xs={6} sm={6} md={6} lg={6} xxl={5}>
+          <Col>
             <div className="home-intro">
               <h2>Next Ripple </h2>
               <h1>Elevating Lives</h1>
@@ -18,7 +18,7 @@ function Home() {
               <button className="button1">Our Products</button>
             </div>
           </Col>
-          <Col xs={6} sm={6} md={6} lg={6} xxl={5}>
+          <Col>
             <img
               src="./img/NR_rocket.png"
               alt="rocket image"

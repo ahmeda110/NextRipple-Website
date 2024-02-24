@@ -11,13 +11,15 @@ import Blog from './pages/Blog';
 import Products from './pages/Products';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 
 function App() {
   return (
     <Router>
       <Header/>
-      <div>
+      <div className='App'>
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/about" element={<About />} />
