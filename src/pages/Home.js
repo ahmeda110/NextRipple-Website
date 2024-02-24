@@ -1,4 +1,6 @@
 import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap';
+
 import styles from './Home.module.css'
 
 function Home() {
@@ -186,3 +188,5 @@ function Home() {
   );
   
 };
+
+export default Home;
