@@ -8,7 +8,7 @@ export const Home = () => {
         <Row>
           <Col>
             <div className="home-intro">
-              <h2>Next Ripple</h2>
+              <h2>Next Ripple </h2>
               <h1>Elevating Lives</h1>
               <p style={{ color: "grey" }}>
                 Your gateway to Mental Resilience, Physical Wellness, and Global
