@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Home.module.css";
 import "../App.css"
 
 function Home() {
@@ -8,7 +7,7 @@ function Home() {
     <div>
       <Container fluid className="home">
         <Row>
-          <Col>
+          <Col xs={6} sm={6} md={6} lg={6} xxl={5}>
             <div className="home-intro">
               <h2>Next Ripple </h2>
               <h1>Elevating Lives</h1>
@@ -19,7 +18,7 @@ function Home() {
               <button className="button1">Our Products</button>
             </div>
           </Col>
-          <Col xs={12} sm={6} md={6} lg={6} xxl={6}>
+          <Col xs={6} sm={6} md={6} lg={6} xxl={5}>
             <img
               src="./img/NR_rocket.png"
               alt="rocket image"
