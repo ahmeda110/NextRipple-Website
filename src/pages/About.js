@@ -12,7 +12,7 @@ const stats = [
   { value: "100k+", label: "App downloads" },
   { value: "10+", label: "Years of experience" },
   { value: "625k+", label: "Monthly active users" },
-  { value: "11", label: "Products built" }
+  { value: "11", label: "Products built" },
 ];
 
 const members = [
