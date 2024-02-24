@@ -10,7 +10,7 @@ function Home() {
         <Row>
           <Col>
             <div className="home-intro">
-              <h2>Next Ripple</h2>
+              <h2>Next Ripple </h2>
               <h1>Elevating Lives</h1>
               <p style={{ color: "grey" }}>
                 Your gateway to Mental Resilience, Physical Wellness, and Global
@@ -80,7 +80,7 @@ function Home() {
                   margin: "0",
                 }}
               >
-                Lorem ipsum jalksd;fjlakdsjfl;kdsjfkl;dsadsfdfsjf;slkjdf ;
+                Lorem ipsum text;
               </p>
             </div>
             <div className="header-container" style={{ position: "relative" }}>
