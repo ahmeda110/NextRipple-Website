@@ -1,0 +1,189 @@
+.footer {
+  background-color: #292930; 
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.left, .rightTop, .rightBottom, .getInTouch, .locationContainer, .pages, .follows {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightTop {
+    flex-direction: row;
+    border-bottom: 1px solid #727274; /* Adds a white line */
+    padding-bottom: 20px; /* Adds space below the content, above the line */
+  }
+  
+  .rightBottom {
+    flex-direction: row;
+    padding-top: 20px; /* Adds space above the content, below the line */
+  }
+
+.left {
+  flex-basis: 40%;
+}
+
+.right {
+  flex-basis: 60%; 
+}
+
+.getInTouch, .locationContainer, .pages, .follows {
+  margin-bottom: 20px;
+}
+
+.getInTouch, .locationContainer {
+  flex: 1;
+}
+
+.pages, .follows {
+  flex: 1;
+}
+
+.subscribeContainer {
+    background-color: #3C3C45;
+    min-height: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 5%;
+    max-width: 75%;
+  }
+  
+  .subscribeContainerHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .subscribeImage {
+    width: auto;
+    max-width: 70%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    align-self: center;
+  }
+
+  .innerSubscribe{
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .subscribeNow{
+    font-weight: 400;
+    font-size: larger;
+    margin: 0;
+  }
+
+  .subscribeNowSub{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #D0D0D0;
+  }
+
+  .emailInput {
+    background-color: #5B5B61;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    color: #ffffff; 
+    padding-left: 20px;
+  }
+  
+  .emailInput::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .subscribeButton {
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFC107;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .emailInput, .subscribeButton {
+    box-sizing: border-box; 
+    width: 100%;
+  }
+
+  .subheader {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  .phoneNumber {
+    display: inline-block; 
+    background-color: #3C3C45;
+    color: #FFC107;
+    border-radius: 5px;
+    text-align: center; 
+  }
+  
+  .phoneNumber p {
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin: 0;
+  }
+  
+  .address {
+    margin-top: 10px;
+  }
+
+  .locationLink {
+    color: #FFC107;
+  }
+
+  .linkContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linkContainer a {
+    text-decoration: none;
+    color: inherit; 
+    padding-top: 8px;
+  }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    flex-basis: 100%;
+  }
+
+  .rightTop, .rightBottom {
+    flex-direction: column;
+  }
+
+  .getInTouch, .locationContainer, .pages, .follows {
+    margin-bottom: 20px;
+  }
+}

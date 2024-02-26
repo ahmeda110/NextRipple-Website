@@ -18,16 +18,17 @@ function Header() {
         return 'Blog';
       case '/products':
         return 'Products';
+      case '/blog/allblogs':
+        return 'All Blogs';
       default:
         return '';
     }
   };
 
   return (
-    <header>
-      
+    <header className={styles.container}>
       <nav>
-        <ul>
+        <ul className={styles.list}>
           <li><NavLink to="/" className={setActiveClass}>Home</NavLink></li>
           <li><NavLink to="/about" className={setActiveClass}>About</NavLink></li>
           <li><NavLink to="/contact" className={setActiveClass}>Contact</NavLink></li>

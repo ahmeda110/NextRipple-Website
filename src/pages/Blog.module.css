@@ -1,0 +1,59 @@
+.blogContainer {
+  margin: 10%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.articlesWrapper {
+  display: flex;
+}
+
+.mainArticle {
+  flex: 2;
+  padding-right: 10px;
+}
+
+.subArticle {
+  flex: 1;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subArticle .article {
+  width: 100%;
+}
+
+.articlePhoto {
+  width: 100%;
+}
+
+.blogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.viewAllButton {
+  font-family: 'Arial', sans-serif; 
+  color: #43439E; 
+  font-size: 20px; 
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.headerContent {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+
+.articleTitle {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
