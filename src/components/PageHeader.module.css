@@ -35,3 +35,19 @@
     font-family: 'Nunito', sans-serif;
     z-index: 2;
 }
+/* Adjust the size and padding of the logo */
+.logo img {
+    max-height: 60px; /* Adjust based on your design */
+    padding: 10px; /* Adds padding around the logo */
+}
+
+/* Ensure the GetStartedButton is aligned and has padding */
+.getStarted {
+    padding: 10px; /* Adds padding around the button */
+}
+
+/* Additional styles for alignment and spacing */
+.headerContent {
+    align-items: center; /* Align items vertically */
+    padding: 0 20px; /* Adds padding on the left and right */
+}
