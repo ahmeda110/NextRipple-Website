@@ -1,9 +1,15 @@
 import React from 'react'
 import styles from './Products.module.css'
+import PageHeader from '../components/PageHeader'
 
 function Products() {
   return (
-    <div>Products Page</div>
+    <div>
+      <PageHeader title="Products"/>
+      <div>
+        products
+      </div>
+    </div>
   )
 }
 

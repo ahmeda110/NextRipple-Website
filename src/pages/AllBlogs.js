@@ -4,6 +4,7 @@ import { blogArticles } from '../components/BlogData';
 import BlogShowcase from '../components/BlogShowcase';
 import { NavLink } from 'react-router-dom';
 import BlogModal from '../components/BlogModal'; 
+import PageHeader from '../components/PageHeader';
 
 function AllBlogs() {
   const [selectedArticle, setSelectedArticle] = useState(null);
@@ -19,6 +20,9 @@ function AllBlogs() {
   };
 
   return (
+    <div>
+      <PageHeader title="Blogs" />
+    
     <div className={styles.blogContainer}>
       <div className={styles.blogHeader}>
           <h2 className={styles.headerContent}>All Blogs</h2>
@@ -39,6 +43,7 @@ function AllBlogs() {
         onClose={closeModal}
         article={selectedArticle}
       />
+    </div>
     </div>
   )
 }

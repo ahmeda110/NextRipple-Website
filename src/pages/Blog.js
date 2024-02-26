@@ -3,6 +3,7 @@ import styles from './Blog.module.css';
 import { blogArticles } from '../components/BlogData';
 import BlogModal from '../components/BlogModal'; 
 import { NavLink } from 'react-router-dom';
+import PageHeader from '../components/PageHeader'
 
 function Blog() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,6 +22,8 @@ function Blog() {
   };
 
   return (
+    <div>
+    <PageHeader title="Blogs" />
     <div className={styles.blogContainer}>
         <div className={styles.blogHeader}>
             <h2 className={styles.headerContent}>Most Recent Blogs</h2>
@@ -52,6 +55,7 @@ function Blog() {
           onClose={closeModal}
           article={selectedArticle}
         />
+    </div>
     </div>
   );
 }

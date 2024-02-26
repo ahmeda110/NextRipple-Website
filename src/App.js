@@ -19,7 +19,6 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header/>
       <div className='App'>
         <Routes>
           <Route path="/" element={<Home />} exact />

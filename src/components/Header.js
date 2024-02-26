@@ -36,7 +36,6 @@ function Header() {
           <li><NavLink to="/products" className={setActiveClass}>Products</NavLink></li>
         </ul>
       </nav>
-      <div className={styles.pageTitle}>{getPageName(pathname)}</div>
     </header>
   );
 }
