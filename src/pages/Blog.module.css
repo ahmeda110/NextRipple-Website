@@ -57,3 +57,13 @@
   margin-bottom: 10px;
   font-size: 22px;
 }
+
+.article {
+  text-align: left;
+}
+
+.article p{
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
