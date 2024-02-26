@@ -74,7 +74,6 @@ p {
 }
 
 .home {
-  padding-top: 10%;
   padding-bottom: 5%;
   position: relative;
 }
@@ -144,4 +143,12 @@ p {
     font-size: 1.5em;
   }
   
+}
+
+.home .logo img {
+  max-width: 100%; 
+}
+
+.home .row {
+  padding: 1rem 0;
 }
