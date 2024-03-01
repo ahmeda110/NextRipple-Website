@@ -32,7 +32,7 @@ function Products() {
               <img src={product.image} alt={product.title} className={styles.productImage} />
             </div>
             <div className={styles.productDetails}>
-              <h2>{product.title}</h2>
+              <h2 className={styles.productTitle}>{product.title}</h2>
               <p>{product.description}</p>
               <button className={styles.detailsButton}>Details</button>
             </div>
