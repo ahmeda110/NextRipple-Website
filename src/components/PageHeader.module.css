@@ -23,6 +23,10 @@
     
 }
 
+.imgLogo {
+    padding: 0 !important;
+}
+
 .backgroundGradient {
     width: 100%;
     height: auto;
@@ -33,7 +37,6 @@
     position: absolute;
     margin-top: 20vw;
     font-family: 'Nunito', sans-serif;
-    z-index: 2;
 }
 
 .logo img {
@@ -51,3 +54,39 @@
     padding: 0 20px; 
     color: black;
 }
+
+.hamburgerMenu {
+    cursor: pointer;
+}
+
+.hamburgerMenu span {
+    display: block;
+    background: #292930; 
+    width: 30px;
+    height: 3px; 
+    margin: 5px 0; 
+    transition: 0.3s;
+  }
+
+  .menu {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background: #292930; 
+    z-index: 1; 
+  }
+
+  .closeBtn {
+    cursor: pointer; 
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .mobileNavbarHeader {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2em 3em; 
+  }

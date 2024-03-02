@@ -7,9 +7,6 @@ function Contact() {
   return (
     <div>
       <PageHeader title="Contact"/>
-      <div>
-        Contact Page
-      </div>
     </div>
   )
 }
