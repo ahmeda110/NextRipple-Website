@@ -1,25 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import NextLogo from '../images/NextLogo.png'
-import NavBarHome from "../components/NavBarHome";
-import GetStartedButton from '../components/GetStartedButton'
+import PageHeader from "../components/PageHeader";
 
 function Home() {
   return (
     <div>
+      <PageHeader/>
     <Container fluid className="home">
-      <Row className="align-items-center justify-content-between">
-        <Col xs={2} md={1} className="logo">
-          <img src={NextLogo} alt="logo" className="img-fluid"/>
-        </Col>
-        <Col xs={7} md={8}>
-          <NavBarHome/>
-        </Col>
-        <Col xs={3} md={2} className="text-end">
-          <GetStartedButton color='black'/>
-        </Col>
-      </Row>
-
         <Row>
           
           <Col>

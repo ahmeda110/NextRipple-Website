@@ -49,3 +49,25 @@
   color: white; 
   font-size: 1.5rem; 
 }
+
+@media (max-width: 930px) {
+  .container {
+    justify-content: center;
+  }
+
+  .list a {
+    color: white;
+  }
+
+  .active::after {
+    display: none;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .list li {
+    font-size: 1.2em;
+  }
+}

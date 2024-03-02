@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './GetStartedButton.module.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function GetStartedButton({ color }) {
-  const backgroundColor = color === 'black' ? 'black' : '#014173'; 
+  const location = useLocation();
+  const [isHomePage, setIsHomePage] = useState(location.pathname === '/');
+  const backgroundColor = isHomePage ? 'black' : '#014173';
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setIsHomePage(true);
+    } else {
+      setIsHomePage(false);
+    }
+  }, [location]);
 
   return (
     <NavLink
