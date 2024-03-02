@@ -53,8 +53,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-        
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
@@ -93,7 +91,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
@@ -132,7 +129,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
