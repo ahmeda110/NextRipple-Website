@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import PageHeader from "../components/PageHeader";
 
 function Home() {
+  function onHandleProducts() {
+    window.location.href = "/products";
+  }
   return (
     <div>
       <PageHeader/>
@@ -17,7 +20,7 @@ function Home() {
                 Your gateway to Mental Resilience, Physical Wellness, and Global
                 Exploration. The ripple of change starts with you. 
               </p>
-              <button className="button1">Our Products</button>
+              <button className="button1" onClick={onHandleProducts}>Our Products</button>
             </div>
           </Col>
           <Col>
@@ -175,7 +178,7 @@ function Home() {
           <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '1vw', fontWeight: 500}}>Sarah Low - Age 35</h2>
           <img src="./img/review.png" alt="review" className="review"></img>
           <p style={{ color: "grey", position: 'absolute', left: '50%', top: '40%', width: '35%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}}>Our Products</button>
+          <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}} onClick={onHandleProducts}>Our Products</button>
           </div>
       
           </Col>
