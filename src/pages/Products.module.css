@@ -100,6 +100,7 @@ h1 {
 .productsStyle {
   font-family: 'Plaster', cursive;
   color: #5956E8;
+  font-size: 66px;
 }
   
 p {
@@ -115,14 +116,19 @@ p {
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 5px;
-    align-self: start; 
+    margin: 0 auto; 
+    display: block;
 }
 
 .productTitle {
-    color: linear-gradient(#4449BE, #CF74F9);
+    background-color: linear-gradient(#4449BE, #CF74F9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
   
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .productContainer {
       flex-direction: column;
       width: 95%;
@@ -130,14 +136,17 @@ p {
       margin: 20px 0; 
   }
 
-  .imageContainer, .productDetails {
-      width: 50%; 
+  .imageContainer{
+      width: 70%; 
       margin: 0; 
-      padding: 15px; 
+      padding: 45px; 
   }
 
   .productDetails {
       padding-top: 10px; 
+      width: 80%; 
+      margin: 0; 
+      padding: 45px;
   }
 
   .itineraryLayout {
@@ -154,7 +163,7 @@ p {
   }
 
   .ourStyle, .productsStyle {
-      font-size: 60px; 
+      font-size: 55px; 
       margin-bottom: 20px;
   }
 
@@ -164,5 +173,7 @@ p {
 
   .detailsButton {
       padding: 8px 16px; 
+      margin: 0 auto; 
+      display: block;
   }
 }
