@@ -44,7 +44,7 @@ function Home() {
           <Col>
           <div className="text-2">
             <h1 style={{ color: "white" }}>
-              Find The <span style={{ color: "#FFAE71" }}>Right Path</span> With
+              Find The <span style={{ color: "#645ED9" }}>Right Path</span> With
               Us
             </h1>
             <div className="header-container" style={{ position: "relative" }}>
