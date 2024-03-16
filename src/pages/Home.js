@@ -1,25 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import NextLogo from '../images/NextLogo.png'
-import NavBarHome from "../components/NavBarHome";
-import GetStartedButton from '../components/GetStartedButton'
+import PageHeader from "../components/PageHeader";
 
 function Home() {
+  function onHandleProducts() {
+    window.location.href = "/products";
+  }
   return (
     <div>
+      <PageHeader/>
     <Container fluid className="home">
-      <Row className="align-items-center justify-content-between">
-        <Col xs={2} md={1} className="logo">
-          <img src={NextLogo} alt="logo" className="img-fluid"/>
-        </Col>
-        <Col xs={7} md={8}>
-          <NavBarHome/>
-        </Col>
-        <Col xs={3} md={2} className="text-end">
-          <GetStartedButton color='black'/>
-        </Col>
-      </Row>
-
         <Row>
           
           <Col>
@@ -30,7 +20,7 @@ function Home() {
                 Your gateway to Mental Resilience, Physical Wellness, and Global
                 Exploration. The ripple of change starts with you. 
               </p>
-              <button className="button1">Our Products</button>
+              <button className="button1" onClick={onHandleProducts}>Our Products</button>
             </div>
           </Col>
           <Col>
@@ -66,8 +56,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-        
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
@@ -106,7 +94,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
@@ -145,7 +132,6 @@ function Home() {
                   position: "absolute",
                   left: "14%",
                   top: "30%",
-                  zIndex: "1",
                   margin: "0",
                 }}
               >
@@ -192,7 +178,7 @@ function Home() {
           <h2 style={{position: 'absolute', left: '55.4%', top: '28%', fontSize: '1vw', fontWeight: 500}}>Sarah Low - Age 35</h2>
           <img src="./img/review.png" alt="review" className="review"></img>
           <p style={{ color: "grey", position: 'absolute', left: '50%', top: '40%', width: '35%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}}>Our Products</button>
+          <button className="button1" style={{position: 'absolute', left: '50%', top: '60%'}} onClick={onHandleProducts}>Our Products</button>
           </div>
       
           </Col>
