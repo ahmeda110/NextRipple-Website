@@ -45,7 +45,7 @@ function About() {
       </div>
 
       {/* Introducing the team */}
-      <div className={styles.lightContainer}> 
+      <div className={styles.darkContainer}> 
       <div className={styles.rowFlexContainer}>
         <img src={TeamIcon} className={styles.icon} alt="Team Icon"/>
         <p className={styles.highlightSection}> Introducing Our Team</p>

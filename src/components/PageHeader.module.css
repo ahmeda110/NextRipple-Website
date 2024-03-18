@@ -37,6 +37,8 @@
     position: absolute;
     margin-top: 20vw;
     font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: black;
 }
 
 .logo img {
@@ -89,4 +91,19 @@
     justify-content: space-between; 
     align-items: center; 
     padding: 2em 3em; 
+  }
+
+  @media (max-width: 930px) {
+    .closeBtn {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        font-size: 1.5em;
+    }
+
+    .mobileLogo {
+        position: absolute; 
+        top: 2em;
+        left: 2em;
+    }
   }

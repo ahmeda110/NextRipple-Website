@@ -65,7 +65,6 @@
     margin: 0.5em
 }
 
-.lightContainer,
 .darkContainer {
     display: flex;
     flex-direction: column;

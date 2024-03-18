@@ -69,7 +69,7 @@ const PageHeader = ({ title }) => {
         {toggleMenu && (
           <div className={styles.menu}>
             <div className={styles.mobileNavbarHeader}>
-              <img src={NextRippleLogoLight} width={150} alt="Logo"/>
+              <img className={styles.mobileLogo} src={NextRippleLogoLight} width={100} alt="Logo"/>
               <div className={styles.closeBtn} onClick={() => setToggleMenu(!toggleMenu)}>x</div>
             </div>
             <Header/>
