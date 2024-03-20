@@ -1,11 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './Contact.module.css';
 import PageHeader from '../components/PageHeader';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com'; // Importing EmailJS directly from the package
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-
 
 function Contact() {
   const [name, setName] = useState('');
@@ -15,19 +14,26 @@ function Contact() {
 
   const form = useRef();
 
+  useEffect(() => {
+    emailjs.init('Your Key');
+  }, []); // Initialize EmailJS only once when the component mounts
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    //Need to make this your own personal info, i used emailJS
-    emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+
+    emailjs.send("Use outlook service", "Your Template", {
+      name: name,
+      email: email,
+      message: message,
+    })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log('Direct email sending SUCCESS!');
           setFormSubmitted(true);
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('Direct email sending FAILED...', error.text);
         }
       );
   };
@@ -43,13 +49,8 @@ function Contact() {
 
     // Invoke sendEmail function for sending email
     sendEmail(e);
-
-    // Reset the form fields after submission
-    setName('');
-    setEmail('');
-    setMessage('');
   };
-
+  
   return (
     <div>
       <PageHeader title="Contact Us" />
