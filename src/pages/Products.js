@@ -8,12 +8,12 @@ function Products() {
   const products = [
     {
       title: 'Fitness App',
-      description: 'Transform your fitness journey with our new Fitness App! Personalized training plans tailored to your needs and goals. Stay motivated, improve your health with efficiency.',
+      description: 'Transform your fitness journey with our all-in-one Fitness App. Personalized workouts, tailored meal plans, and AI-guided corrections for a safer, effective approach. Elevate your health goals effortlessly.',
       image: fitness,
     },
     {
       title: 'Itinerary App',
-      description: 'Discover the ultimate travel companion in our Itinerary App! Personalized itinerary plans ensuring you have memorable & planning-free traveling experiences.',
+      description: 'Discover the ultimate travel companion in our Itinerary App. Personalized trip plans, effortless navigation with guided routes, and real-time progress tracking—no more hassle in planning or wasting time.',
       image: itinerary, 
     } 
   ]; 
