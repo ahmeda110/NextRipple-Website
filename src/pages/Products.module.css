@@ -135,17 +135,26 @@ p {
       margin: 20px 0; 
   }
 
+  .productImage{
+    width: 210%;
+  }
+
+  .itineraryLayout .productImage {
+    width: 170%; 
+}
+
   .imageContainer{
-      width: 70%; 
+      width: 80%; 
+      height: 50%;
       margin: 0; 
-      padding: 45px; 
+      padding-left: 45px;
+      padding-right: 45px;
   }
 
   .productDetails {
-      padding-top: 10px; 
-      width: 80%; 
+      width: 100%; 
       margin: 0; 
-      padding: 45px;
+      padding-top: 18px;
   }
 
   .itineraryLayout {
