@@ -1,0 +1,155 @@
+/* Contact.module.css */
+
+/* Common styles */
+.statsContainer {
+    /* Add your styles for statistics container */
+}
+
+.whiteSpaceContainer {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteRectangle {
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(140, 135, 204, 0.25);
+    border-radius: 14px;
+    padding: 35px;
+    width: 900px;
+    
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    color: #5956EA;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: Nunito, sans-serif;
+    margin-right: 20px; /* Adjust margin between title and social icons */
+}
+
+/* Base styles for all icons */
+.instaIcon, .twitterIcon, .linkedinIcon {
+    font-size: 24px; /* Adjusted font size */
+    margin-right: 15px; /* Adjusted margin between icons */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Hover styles for all icons */
+.instaIcon:hover, .twitterIcon:hover, .linkedinIcon:hover {
+    transform: scale(1.2); /* Scale up on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover styles for individual icons */
+.instaIcon:hover {
+    color: #3498db; /* Change color on hover for Instagram icon */
+}
+
+.twitterIcon:hover {
+    color: #1DA1F2; /* Change color on hover for Twitter icon */
+}
+
+.linkedinIcon:hover {
+    color: #0077B5; /* Change color on hover for LinkedIn icon */
+}
+
+.subtitleText {
+    color: #000000;
+    font-size: 13px;
+    font-family: Nunito, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.inputContainer {
+    margin-bottom: 15px;
+}
+
+.inputField, .textareaField, .submitButton {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    transition: border-color 0.3s ease;
+    box-shadow: 0px 1px 7px rgba(140, 135, 204, 0.25);
+}
+
+.inputField:focus, .textareaField:focus {
+    outline: none;
+    border-color: #5956EA;
+}
+
+.textareaField {
+    height: 120px;
+    resize: none;
+    overflow-y: auto;
+    max-width: 100%;
+}
+
+.submitButton {
+    background-color: #5956EA;
+    color: white;
+    border-radius: 14px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.submitButton:hover {
+    background-color: #7D7AFF;
+}
+
+.submitButton:active {
+    background-color: #4646AD;
+}
+
+.submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+/* Media Queries for responsiveness */
+
+/* Adjustments for tablets */
+@media (max-width: 768px) {
+    .whiteRectangle {
+        padding: 25px;
+    }
+    .titleText {
+        font-size: 20px;
+    }
+    .instaIcon, .twitterIcon, .linkedinIcon {
+        font-size: 20px;
+    }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 480px) {
+    .whiteRectangle {
+        padding: 15px;
+    }
+    .titleText {
+        font-size: 18px;
+    }
+    .instaIcon, .twitterIcon, .linkedinIcon {
+        font-size: 18px;
+    }
+}
